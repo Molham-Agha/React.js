@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../compontents/Header";
 import Footer from "../compontents/Footer";
 import photo from "../photos/p.jpg"

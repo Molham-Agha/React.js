@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "../compontents/Footer";
 import Header from "../compontents/Header";

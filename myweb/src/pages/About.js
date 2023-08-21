@@ -1,4 +1,3 @@
-import React from "react";
 import Footer from "../compontents/Footer";
 import Header from "../compontents/Header";
 import photo from "../photos/y.jpg"
@@ -23,10 +22,10 @@ const About = () => {
           <div className="container">
             <div className="skills">
               <div className="skill">
-                <h3>HTML <span>75%</span>
+                <h3>HTML <span>85%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '75%'}} />
+                  <span style={{width: '85%'}} />
                 </div>
               </div>
               <div className="skill">
@@ -37,17 +36,17 @@ const About = () => {
                 </div>
               </div>
               <div className="skill">
-                <h3>JavaScript <span>40%</span>
+                <h3>JavaScript <span>50%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '40%'}} />
+                  <span style={{width: '50%'}} />
                 </div>
               </div>
               <div className="skill">
-                <h3>pug.js <span>90%</span>
+                <h3>pug.js <span>85%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '90%'}} />
+                  <span style={{width: '85%'}} />
                 </div>
               </div>
               <div className="skill">
@@ -58,17 +57,17 @@ const About = () => {
                 </div>
               </div>
               <div className="skill">
-                <h3>typeScript <span>40%</span>
+                <h3>typeScript <span>50%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '40%'}} />
+                  <span style={{width: '50%'}} />
                 </div>
               </div>
               <div className="skill">
-                <h3>React.js <span>40%</span>
+                <h3>React.js <span>60%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '40%'}} />
+                  <span style={{width: '60%'}} />
                 </div>
               </div>
             </div>
