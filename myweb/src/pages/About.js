@@ -29,10 +29,10 @@ const About = () => {
                 </div>
               </div>
               <div className="skill">
-                <h3>CSS <span>70%</span>
+                <h3>CSS & SCSS <span>75%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '70%'}} />
+                  <span style={{width: '75%'}} />
                 </div>
               </div>
               <div className="skill">
