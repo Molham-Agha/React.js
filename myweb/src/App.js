@@ -1,32 +1,20 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createBrowserRouter, RouterProvider , createRoutesFromElements , Route} from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Services from "./pages/Services";
+import Layout from "./compontents/Layout";
 
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-    errorElement: <h1>.........</h1>,
-  },
-
-  {
-    path: "/Contact",
-    element: <Contact />,
-  },
-
-  {
-    path: "/About",
-    element: <About />,
-  },
-  {
-    path: "/Services",
-    element: <Services />,
-  },
-]);
+const router = createBrowserRouter(createRoutesFromElements(
+  <Route element={<Layout/>}>
+    <Route path='/' element= {<Home />}/>
+    <Route path='services' element= {<Services />}/>
+    <Route path='about' element= {<About />}/>
+    <Route path='/contact' element= {<Contact />}/>
+  </Route>
+))
 
 function App() {
   return (

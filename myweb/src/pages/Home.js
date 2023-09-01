@@ -1,5 +1,3 @@
-import Header from "../compontents/Header";
-import Footer from "../compontents/Footer";
 import photo from "../photos/p.jpg"
 import { Helmet } from 'react-helmet-async';
 
@@ -9,7 +7,6 @@ const Home = () => {
       <Helmet>
         <title>Home page</title>
       </Helmet>
-      <Header />
       <div className="landing">
         <div className="container">
           <div className="text">
@@ -23,7 +20,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

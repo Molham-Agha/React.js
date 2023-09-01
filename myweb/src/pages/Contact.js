@@ -1,7 +1,5 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Footer from "../compontents/Footer";
-import Header from "../compontents/Header";
 import { Helmet } from 'react-helmet-async';
 
 
@@ -44,7 +42,6 @@ const Contact = () => {
       <Helmet>
         <title>Contact page</title>
       </Helmet>
-      <Header />
       <div className="contact">
         <div className="container">
           <div className="location">
@@ -69,7 +66,6 @@ const Contact = () => {
           </form>
         </div>
      </div>
-      <Footer />  
    </>
   );
 };

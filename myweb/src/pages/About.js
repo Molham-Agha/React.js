@@ -1,5 +1,3 @@
-import Footer from "../compontents/Footer";
-import Header from "../compontents/Header";
 import photo from "../photos/y.jpg"
 import { Helmet } from 'react-helmet-async';
 
@@ -9,7 +7,6 @@ const About = () => {
       <Helmet>
         <title>About page</title>
       </Helmet>
-      <Header />
       <div className="im about-container">
           <img className="img" src={photo} alt="" />
           <p>A day without laughter is a wasted day !
@@ -73,7 +70,6 @@ const About = () => {
             </div>
           </div>
         </div>
-      <Footer />
     </>
   );
 };

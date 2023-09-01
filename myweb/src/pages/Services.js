@@ -1,5 +1,3 @@
-import Header from "../compontents/Header";
-import Footer from "../compontents/Footer";
 import { Helmet } from 'react-helmet-async';
 
 const Services = () => {
@@ -8,7 +6,6 @@ const Services = () => {
       <Helmet>
         <title>Services page</title>
       </Helmet>
-      <Header/>
       <div className="container container-services">
         <div className="drops" style={{ color: "#ff0f5b" }}>
           <div className="content">
@@ -32,7 +29,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <Footer/>
    </>
   );
 };
