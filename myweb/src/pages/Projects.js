@@ -21,7 +21,7 @@ const Projects = () => {
           </div>
           <div className="box-projects">
             <img src={p3} alt="" />
-            <p>Html & Css</p>
+            <p>Display frame</p>
             <hr />
             <div className="links">
                 <Link to="https://project1-html-css.web.app/">Demo</Link>
@@ -30,7 +30,7 @@ const Projects = () => {
           </div>
           <div className="box-projects">
             <img src={p4} alt="" />
-            <p>Html & Css</p>
+            <p>Display frame</p>
             <hr />
             <div className="links">
                 <Link to="https://project2-html-css.web.app/">Demo</Link>
@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
           <div className="box-projects">
             <img src={p5} alt="" />
-            <p>Html & Css</p>
+            <p>Display frame</p>
             <hr />
             <div className="links">
                 <Link to="https://project3-html-css.web.app/">Demo</Link>

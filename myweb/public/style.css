@@ -135,6 +135,16 @@
     background-color: purple;
     animation: loading 2s 1 ;
   }
+  .About-p p{
+    text-align: center;
+    color: white;
+    padding-bottom: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .About-p p span{
+    color: #9e0fb1;
+  }
   /* contact =========================*/
   .contact{
     position: relative;

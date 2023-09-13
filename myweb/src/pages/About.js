@@ -19,14 +19,14 @@ const About = () => {
           <div className="container">
             <div className="skills">
               <div className="skill">
-                <h3>HTML <span>85%</span>
+                <h3>HTML <span>90%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '85%'}} />
+                  <span style={{width: '90%'}} />
                 </div>
               </div>
               <div className="skill">
-                <h3>CSS & SCSS <span>75%</span>
+                <h3>CSS & SCSS & Tailwind <span>75%</span>
                 </h3>
                 <div className="the-progress">
                   <span style={{width: '75%'}} />
@@ -61,14 +61,24 @@ const About = () => {
                 </div>
               </div>
               <div className="skill">
-                <h3>React.js <span>60%</span>
+                <h3>React.js <span>70%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '60%'}} />
+                  <span style={{width: '70%'}} />
+                </div>
+              </div>
+              <div className="skill">
+                <h3>Bootstrap & B. React.js <span>75%</span>
+                </h3>
+                <div className="the-progress">
+                  <span style={{width: '75%'}} />
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div className="About-p">
+          <p>These are some languages that I have some knowledge of <span>Next.js</span> and <span>Vue.js</span> and <span>PHP</span> </p>
         </div>
     </>
   );
