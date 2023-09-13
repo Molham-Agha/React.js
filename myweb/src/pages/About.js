@@ -40,6 +40,13 @@ const About = () => {
                 </div>
               </div>
               <div className="skill">
+                <h3>Git <span>70%</span>
+                </h3>
+                <div className="the-progress">
+                  <span style={{width: '70%'}} />
+                </div>
+              </div>
+              <div className="skill">
                 <h3>pug.js <span>85%</span>
                 </h3>
                 <div className="the-progress">
