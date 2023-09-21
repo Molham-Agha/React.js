@@ -10,11 +10,9 @@ function Header() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink to="/" className="nav-logo">
-            
-          <i className="fa-solid fa-heart fa-flip"></i>
+          <NavLink to="/" className="nav-logo"> 
+           <i class="fa-solid fa-code fa-flip"></i>
           </NavLink>
-
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink

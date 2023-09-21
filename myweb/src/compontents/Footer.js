@@ -10,9 +10,9 @@ const Footer = () => {
              
        <div className="footer">
             <div className="container">
-                <a className="logo" href="/">
-                <i className="fa-solid fa-heart fa-flip"></i>
-                </a>
+                <Link className="logo" href="/">
+                <i class="fa-solid fa-code fa-flip"></i>
+                </Link>
                 <div className="main-nav">
                     <Link to="/">Home</Link>
                     <Link to="/Services">Services</Link>

@@ -40,17 +40,17 @@ const About = () => {
                 </div>
               </div>
               <div className="skill">
-                <h3>Git <span>70%</span>
+                <h3>Git <span>50%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '70%'}} />
+                  <span style={{width: '50%'}} />
                 </div>
               </div>
               <div className="skill">
-                <h3>pug.js <span>85%</span>
+                <h3>pug.js <span>90%</span>
                 </h3>
                 <div className="the-progress">
-                  <span style={{width: '85%'}} />
+                  <span style={{width: '90%'}} />
                 </div>
               </div>
               <div className="skill">
