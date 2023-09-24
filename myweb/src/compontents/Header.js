@@ -11,7 +11,7 @@ function Header() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink to="/" className="nav-logo"> 
-           <i class="fa-solid fa-code fa-flip"></i>
+          <i class="fa-solid fa-heart"></i>
           </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">

@@ -11,7 +11,7 @@ const Footer = () => {
        <div className="footer">
             <div className="container">
                 <Link className="logo" href="/">
-                <i class="fa-solid fa-code fa-flip"></i>
+                <i class="fa-solid fa-heart"></i> 
                 </Link>
                 <div className="main-nav">
                     <Link to="/">Home</Link>
